@@ -1,0 +1,7 @@
+Method,Position MSE (m^2),Position RMSE (m)
+"Ideal Q (oracle, unreachable in practice)",3.441844983980984,1.8552210067754689
+Naive constant-velocity KF (wrong f),3.756575400623802,1.9381886906655403
+Severe Q over-estimate,12.494658036594664,3.5347783574921166
+Mild Q under-estimate,25.525651689600377,5.052291726494064
+Severe Q under-estimate,37.15492206075168,6.095483742965088
+"KalmanNet (learned gain, no Q/R needed)",59.66687774658203,7.724433813981581

@@ -1,0 +1,17 @@
+{
+  "author": "Siddharth Singh",
+  "roll_no": "23053720",
+  "n_train_trajectories": 120,
+  "n_val_trajectories": 20,
+  "n_test_trajectories": 15,
+  "trajectory_length": 30,
+  "dt": 0.5,
+  "results_position_RMSE_m": {
+    "Ideal Q (oracle, unreachable in practice)": 1.855,
+    "Mild Q under-estimate": 5.052,
+    "Severe Q under-estimate": 6.095,
+    "Severe Q over-estimate": 3.535,
+    "Naive constant-velocity KF (wrong f)": 1.938,
+    "KalmanNet (learned gain, no Q/R needed)": 7.724
+  }
+}
